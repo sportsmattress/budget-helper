@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Budget Helper</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header>
+        <h3>Find Out How Much Money You Can Spend Per Day!</h3>
+    </header>
+    <div class="container">
+        <h5>Please fill out the fields below as accurate as possible. <br>
+            If something does not apply to you, please put 0 in the field. <br>
+        Any remaining expenses, please add to the 'Other' input field.</h5>
+        <div class="formContainer">
+            <form id="form">
+                <input type="number" id="takeHomePay" placeholder="Monthly take home pay (After Taxes!!)">
+                <input type="number" id="livingExpense" placeholder="Mortgage/Rent">
+                <input type="number" id="carPayment" placeholder="Car Payment">
+                <input type="number" id="carInsurance" placeholder="Car Insurance">
+                <input type="number" id="gasOil" placeholder="Gas/Oil">
+                <input type="number" id="electric" placeholder="Electric">
+                <input type="number" id="cableInternet" placeholder="Cable/Internet">
+                <input type="number" id="grocery" placeholder="Groceries">
+                <input type="number" id="studentLoan" placeholder="Student Loan">
+                <input type="number" id="other" placeholder="Other (Subscriptions, entertainment, gym, etc.)">
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+            </div>
+        </div>
+
+
+
+    </div>
+        <script src="main.js"></script>
+</body>
+</html>
